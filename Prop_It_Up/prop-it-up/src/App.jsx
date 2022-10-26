@@ -6,13 +6,13 @@ import Details from './components/details';
 function App() {
   return (
     <div className="App">
-      <Header firstName={"Doe"} lastName={"Jane"}/>
+      <Header firstName={"Jane"} lastName={"Doe"}/>
       <Details age={45} hairColor={"Black"} firstName={"Jane"} lastName={"Doe"}/>
-      <Header firstName={"Smith"} lastName={"Johnson"}/>
+      <Header firstName={"Johnson"} lastName={"Smith"}/>
       <Details age={88} hairColor={"Brown"} firstName={"Johnson"} lastName={"Smith"} />
-      <Header firstName={"Fillmore"} lastName={"Millard"} />
+      <Header firstName={"Millard"} lastName={"Fillmore"} />
       <Details age={50} hairColor={"Brown"} firstName={"Millard"} lastName={"Fillmore"}/>
-      <Header firstName={"Smith"} lastName={"Maria"}/>
+      <Header firstName={"Maria"} lastName={"Smith"}/>
       <Details age={62} hairColor={"Brown"} firstName={"Maria"} lastName={"Smith"}/>
     </div>
   )
