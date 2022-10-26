@@ -7,6 +7,22 @@
 
 
 
+
 .read-the-docs {
-  color: #888;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border:none;
+  background-color:rgb(126, 231, 231);
+  padding: 15px 22px;
+  box-shadow: 10px 10px rgb(48, 104, 224);
+  font-size: 15px;
+  transition: transform 0.5s;
+}
+
+.read-the-docs:hover{
+  transform:scale(1.1);
+  background-color: rgb(66, 117, 117);
+  box-shadow: 10px 10px rgb(29, 58, 119);
+  color:azure;
+  cursor: pointer;
 }

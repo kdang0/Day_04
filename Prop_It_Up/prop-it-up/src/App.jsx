@@ -7,13 +7,13 @@ function App() {
   return (
     <div className="App">
       <Header firstName={"Doe"} lastName={"Jane"}/>
-      <Details age={45} hairColor={"Black"} />
+      <Details age={45} hairColor={"Black"} firstName={"Jane"} lastName={"Doe"}/>
       <Header firstName={"Smith"} lastName={"Johnson"}/>
-      <Details age={88} hairColor={"Brown"} />
-      <Header firstName={"Fillmore"} lastName={"Millard"}/>
-      <Details age={50} hairColor={"Brown"} />
+      <Details age={88} hairColor={"Brown"} firstName={"Johnson"} lastName={"Smith"} />
+      <Header firstName={"Fillmore"} lastName={"Millard"} />
+      <Details age={50} hairColor={"Brown"} firstName={"Millard"} lastName={"Fillmore"}/>
       <Header firstName={"Smith"} lastName={"Maria"}/>
-      <Details age={62} hairColor={"Brown"} />
+      <Details age={62} hairColor={"Brown"} firstName={"Maria"} lastName={"Smith"}/>
     </div>
   )
 }
